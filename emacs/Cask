@@ -1,0 +1,42 @@
+(source gnu)
+(source melpa)
+
+(depends-on "cask")
+(depends-on "use-package")
+(depends-on "init-loader")
+
+(depends-on "base16-theme")
+
+(depends-on "bind-key")
+
+(depends-on "helm")
+(depends-on "helm-ls-git")
+(depends-on "helm-descbinds")
+
+(depends-on "anzu")
+
+(depends-on "flycheck")
+(depends-on "flycheck-cask")
+
+(depends-on "undo-tree")
+
+(depends-on "expand-region")
+
+(depends-on "smart-newline")
+
+(depends-on "rainbow-delimiters")
+
+(depends-on "auto-complete")
+
+(depends-on "magit")
+
+(depends-on "free-keys")
+
+(depends-on "cperl-mode")
+(depends-on "js2-mode")
+(depends-on "json-mode")
+(depends-on "markdown-mode")
+(depends-on "scss-mode")
+(depends-on "web-mode")
+(depends-on "yaml-mode")
+
