@@ -5,7 +5,7 @@
 (depends-on "use-package")
 (depends-on "init-loader")
 
-(depends-on "base16-theme")
+(depends-on "zenburn")
 
 (depends-on "bind-key")
 

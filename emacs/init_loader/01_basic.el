@@ -3,14 +3,19 @@
 (prefer-coding-system 'utf-8-unix)
 
 ;; theme
-(load-theme 'base16-eighties t t)
-(enable-theme 'base16-eighties)
+(load-theme 'zenburn t t)
+(enable-theme 'zenburn)
 
 (custom-set-faces
- `(fringe ((t (:background ,"#393939"))))
+ `(default ((t (:foreground ,"#eeeeee"))))
+ `(font-lock-builtin-face ((t (:foreground ,"#ddaaaa" :weight normal))))
+ `(font-lock-keyword-face ((t (:weight normal))))
+ `(font-lock-string-face ((t (:foreground ,"#bc8383"))))
+ `(fringe ((t (:background ,"#3f3f3f"))))
  `(mode-line ((t (:background ,"#2d2d2d" :foreground ,"#999999"))))
  `(hl-line ((t (:background ,"#393939"))))
- `(linum ((t (:background ,"#2d2d2d" :foreground ,"#999999")))))
+ `(linum ((t (:background ,"#2d2d2d" :foreground ,"#999999"))))
+ `(mode-line-buffer-id ((t (:weight normal)))))
 
 ;; toolbar
 (tool-bar-mode 0)
