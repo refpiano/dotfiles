@@ -1,5 +1,4 @@
 ;; lang
-(set-language-environment "Japanese")
 (prefer-coding-system 'utf-8-unix)
 
 ;; theme
@@ -13,8 +12,8 @@
  `(font-lock-string-face ((t (:foreground ,"#bc8383"))))
  `(fringe ((t (:background ,"#3f3f3f"))))
  `(mode-line ((t (:background ,"#2d2d2d" :foreground ,"#999999"))))
- `(hl-line ((t (:background ,"#393939"))))
- `(linum ((t (:background ,"#2d2d2d" :foreground ,"#999999"))))
+ `(hl-line ((t (:background ,"#999999"))))
+ `(linum ((t (:background ,"#363636" :foreground ,"#999999"))))
  `(mode-line-buffer-id ((t (:weight normal)))))
 
 ;; toolbar
@@ -35,12 +34,12 @@
 (setq default-frame-alist
       (append
        (list 
-        '(width  . 150)
-        '(height . 40))
+        '(width  . 120)
+        '(height . 35))
        default-frame-alist))
 
 ;; font
-(set-face-attribute 'default nil :family "Ricty Discord" :height 135)
+(set-face-attribute 'default nil :family "Ricty Discord" :height 140)
 (set-fontset-font (frame-parameter nil 'font)
                   'japanese-jisx0208
                   (cons "Ricty Discord" "iso10646-1"))
