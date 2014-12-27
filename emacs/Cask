@@ -29,6 +29,7 @@
 (depends-on "auto-complete")
 
 (depends-on "magit")
+(depends-on "git-gutter")
 
 (depends-on "free-keys")
 
